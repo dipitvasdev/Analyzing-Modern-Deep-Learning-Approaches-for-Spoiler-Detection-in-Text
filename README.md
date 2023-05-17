@@ -6,13 +6,13 @@ When choosing to watch a movie or TV show, reviews and ratings are often relied 
 
 ## Models Used
 
-![success][https://iili.io/HU6MkCb.png]
+![success](https://iili.io/HU6MkCb.png)
 
 
-![failed][https://iili.io/HU6W6Lg.png]
+![failed](https://iili.io/HU6W6Lg.png)
 
 
-![bert_comparative][https://iili.io/HU6XF24.png]
+![bert_comparative](https://iili.io/HU6XF24.png)
 
 
 Overall, our results demonstrated that architectural choices, data preprocessing techniques, and data sampling strategies significantly impact the performance of the models. DistilBERT emerged as the top-performing with an accuracy of 78.49\%. With BERT Comparative, we see that inclusion of movie plot data in BERT training showed potential for improving spoiler understanding. This model as performed well with 78.18\% accuracy. 

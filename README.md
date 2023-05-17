@@ -38,8 +38,6 @@ The File Structure is given below:-
 
 ```Text Processing.ipynb``` : This notebook contains the functions we used to do text processing as seen by table below. 
 
-```Data Exploration.ipynb``` : This notebook contains the Data Exploration that was conducted
-
 A single model folder can have many folders each containing a vairation of the model mentioned in the table above. Each folder has the following format of the name: ```x% isSampled type_of_processing```. Here isSampled would denote if data used was sampled, and type_of_processing will denote the data processing techniques applied according to the table below:- 
 
 | Processing  Technique | Lower | Remove Link | Remove Double Space | Special  Characters | Expand Contraction | Remove Accented Characters | Stopwords |

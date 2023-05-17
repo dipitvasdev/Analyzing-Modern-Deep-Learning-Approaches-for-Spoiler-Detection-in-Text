@@ -23,19 +23,22 @@ Overall, our results demonstrated that architectural choices, data preprocessing
 The File Structure is given below:- 
 
 
-```dataset``` : This folder contains all the dataset files used to train the models
 
-```AlBERT``` : Folder containing Variations of AlBERT model
+```AlBERT``` : Folder containing Variations of AlBERT model. 
 
-```BERT Comparative```: Folder containing Variations of BERT Comparative model
+```BERT Comparative```: Folder containing Variations of BERT Comparative model. 
 
-```DistilBERT``` : Folder containing Variations of DistilBERT model
+```DistilBERT``` : Folder containing Variations of DistilBERT model. 
 
-```GPT-2``` : Folder containing Variations of GPT-2 model
+```GPT-2``` : Folder containing Variations of GPT-2 model. 
 
-```RoBERTa```: Folder containing Variations of RoBERTa model
+```RoBERTa```: Folder containing Variations of RoBERTa model. 
 
-```Small BERT```: Folder containing Variations of Small BERT model
+```Small BERT```: Folder containing Variations of Small BERT model. 
+
+```Text Processing.ipynb``` : This notebook contains the functions we used to do text processing as seen by table below. 
+
+```Data Exploration.ipynb``` : This notebook contains the Data Exploration that was conducted
 
 A single model folder can have many folders each containing a vairation of the model mentioned in the table above. Each folder has the following format of the name: ```x% isSampled type_of_processing```. Here isSampled would denote if data used was sampled, and type_of_processing will denote the data processing techniques applied according to the table below:- 
 
@@ -59,12 +62,22 @@ The code uses Google Colab, and Drive so that we could have trained the models f
 
 3. Go to the notebook and add it to Google Colab. 
 
-4. Download ```dataset``` , upload all the files to Google Drive of that account. 
+4. Download ```final-project-datasets``` folder from ![https://drive.google.com/drive/folders/1vZjejj8mowpDr8CadvXfnj0KYBFsSFYx](https://drive.google.com/drive/folders/1vZjejj8mowpDr8CadvXfnj0KYBFsSFYx). 
 
-5. Connect to a GPU. Keep in mind that these notebooks were trained mostly on Pro Version of Google Colab, and we used High RAM VMs and powerful GPUs, so you may face RAM issues 
+5. Copy each file directory into your Google Drive, keep in my they should be located in My Drive not in any folder. 
 
-6. Click Run All to train and evalute the respective model
-<<<<<<< Updated upstream
+
+6. Connect to a GPU Runtime. Keep in mind that these notebooks were trained mostly on Pro Version of Google Colab, and we used High RAM VMs and powerful GPUs, so you may face RAM issues 
+
+7. Mount Drive in colab by clicking the Filer menu and mount drive icon, or running the following code:- 
+
+  ```from google.colab import drive
+      drive.mount('/content/drive')
+  ```
+  
+8. Click Run All to train and evalute the respective model
+
+
 =======
 ## Authors
 
@@ -82,4 +95,3 @@ The code uses Google Colab, and Drive so that we could have trained the models f
 - [How to randomly select rows from Pandas DataFrame](https://www.geeksforgeeks.org/how-to-randomly-select-rows-from-pandas-dataframe/#)
 
 - [GPT2_Transfer_Learning_final.ipynb](https://github.com/almarengo/gpt2-text-classification/blob/main/GPT2_Transfer_Learning_final.ipynb)
->>>>>>> Stashed changes

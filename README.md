@@ -62,7 +62,7 @@ The code uses Google Colab, and Drive so that we could have trained the models f
 
 3. Go to the notebook and add it to Google Colab. 
 
-4. Download ```final-project-datasets``` folder from ![https://drive.google.com/drive/folders/1vZjejj8mowpDr8CadvXfnj0KYBFsSFYx](https://drive.google.com/drive/folders/1vZjejj8mowpDr8CadvXfnj0KYBFsSFYx). 
+4. Download ```final-project-datasets``` folder from (https://drive.google.com/drive/folders/1vZjejj8mowpDr8CadvXfnj0KYBFsSFYx). 
 
 5. Copy each file directory into your Google Drive, keep in my they should be located in My Drive not in any folder. 
 
@@ -71,8 +71,9 @@ The code uses Google Colab, and Drive so that we could have trained the models f
 
 7. Mount Drive in colab by clicking the Filer menu and mount drive icon, or running the following code:- 
 
-  ```from google.colab import drive
-      drive.mount('/content/drive')
+  ```
+  from google.colab import drive
+  drive.mount('/content/drive')
   ```
   
 8. Click Run All to train and evalute the respective model
